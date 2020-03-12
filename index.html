@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CityApp - Bienvenue!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quando&display=swap" rel="stylesheet">
+	<script>
+		window.onscroll = () => {
+		  const nav = document.querySelector('#navbar');
+			  if(this.scrollY <= 150)
+			  	{
+			  		nav.className = '';
+				}
+			  else {
+			  		nav.className = 'scroll';
+			 	}
+		};
+	</script>
+
+	<!-- <script>
+    	$(document).scroll(function () {
+	    var y = $(this).scrollTop();
+		    if (y > 150) {
+		        $('#mockup').fadeIn(800);
+		        $('#video').fadeIn(800);
+		        $('#mocktitle').fadeIn(800);
+		    } else {
+		        $('#mockup').fadeOut(800);
+		        $('#video').fadeOut(800);
+		        $('#mocktitle').fadeOut(800);
+		    }
+		});
+	</script> -->
+	
+</head>
+<body>
+	<nav class="black" id="navbar">
+		<a href="#" class="logo">CityApp</a>
+		<ul>
+			<li><a href="#soumission">Soumission</a></li>
+			<li><a href="#team">L'équipe</a></li>
+			<li><a href="#mission">Notre Mission</a></li>
+			<li><a href="#produit"">Produit</a></li>
+		</ul>
+	</nav>
+	
+	<div class="header">
+		
+		
+		<video class="homevideo" autoplay muted loop>
+			<source src="bgtwitter.mp4" type="video/mp4">
+		</video>
+		<!-- <iframe class="homevideo" src="https://player.vimeo.com/video/396709425?autoplay=1&loop=1&muted=1&background=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+		<div class="background">
+		</div>
+		<div class="title">
+				<!-- <h1>CityApp</h1> -->
+				<!-- <h2>Nous croyons que l’expérience des visiteurs devrait être à la hauteur de la beauté des régions.</h2> -->
+				<h2>Le tourisme<br/>de demain.</h2>
+				<a class="cta-home" href="#soumission"><h3>Demandez une soumission</h3></a>
+		</div>
+<div class="section" id="produit"></div>
+	</div>
+	
+
+	<div class="body">
+
+
+		
+		<div class="produit" id="prodsec">
+			<h3 id="mocktitle">Une application clé en main!</h3>
+
+			<div class="text-left">
+				<p class="trans">Itinéraires personnalisés</p>
+				<p style="transform: translateX(20px);">Commerçants</p>
+				<p style="transform: translateX(50px);">Événements</p>
+			</div>
+			<img id="mockup" class="prod-pic" src="mockups/opener.png">
+			<img style="transform: translate(-180px, -130px);" class="arrows" src="Arrows/left_top.png" alt="">
+			<img style="transform: translate(-180px, 70px);" class="arrows" src="Arrows/straight.png" alt="">
+			<img style="transform: translate(-180px, 260px);" class="arrows" src="Arrows/left_bottom.png" alt="">
+			<img style="transform: translate(180px, -130px);" class="arrows" src="Arrows/right_top.png" alt="">
+			<img style="transform: translate(180px, 70px) scale(-1);" class="arrows flip"  src="Arrows/straight.png" alt="">
+			<img style="transform: translate(180px, 260px);" class="arrows" src="Arrows/right_bottom.png" alt="">
+			
+			<div class="text-right">
+				<div class="float-right" style="float: right;">
+				<p style="transform: translateX(40px);">Carte intéractive</p>
+				<p style="transform: translateX(70px);">Hébergements</p>
+				<p style="transform: translateX(60px);">Et plus encore!</p>
+				</div>
+			</div>
+
+			
+
+
+			<div class="row" style="margin-bottom: 100px; margin-top: 50px;">
+				<div class="col25">
+					<img class="mockups" src="mockups/1.png" alt="">
+				</div>
+				<div class="col25">
+					<img class="mockups" src="mockups/2.png" alt="">
+				</div>
+				<div class="col50">
+					<div class="proddesc">
+						<p>Nous révolutionnons l'univers du tourisme en offrant aux régions touristiques une application clé en main, pouvant être adaptée à leur différentes charactéristiques. Basé sur la durée du séjour et ces intérêts, le visiteur se voit être offert un itinéraire personnalisé. Carte intéractive, commerçants, hébergements, événements; tout se retrouve au même endroit. Les visiteurs ont donc une meilleure expérience, les commerçants sont plus exposé, et les régions touristiques reçoivent plus de touristes. C'est donc une solution gagnante pour toutes les parties prenantes.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col25">
+					<img class="mockups" src="mockups/4.png" alt="">
+				</div>
+				<div class="col25">
+					<img class="mockups" src="mockups/4.png" alt="">
+				</div>
+				<div class="col50">
+					<iframe id="video" class="video" src="https://player.vimeo.com/video/364673317" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				</div>
+			</div>
+
+
+<!-- 			<div class="addedvalue content">
+
+				<div class="sidebar-first">
+					<h4>Les visiteurs</h4>
+					<div class="visitors">
+						<div class="users">
+							<img id="users" src="value/users.png" alt="">
+						</div>
+					</div>
+					<p class="valuetext">We benefit!</p>
+				</div>
+				
+				<div class="main">
+					<h4>Les commerçants</h4>
+					<div class="commercants">
+						<img id="shop" src="value/shop.png" alt="">
+					</div>
+					<p class="valuetext">We benefit!</p>
+				</div>
+				
+				<div class="sidebar-second">
+					<h4>Les régions touristiques</h4>
+					<div class="region">
+						<img id="regions" src="value/regions.png" alt="">
+					</div>
+					<p class="valuetext">We benefit!</p>
+				</div>
+			</div> -->
+
+
+
+
+			
+		</div>
+		
+		<div class="section" id="mission"></div>
+		<div class="mission">
+			<h3>Notre mission</h3>
+			<p>"Chez CityApp nous croyons que <i><b>l’expérience des visiteurs</b></i> devrait être à la hauteur de la <i><b>beauté des régions.</b></i> Les visiteurs devraient être en mesure de trouver facilement ce qu’ils veulent voir, essayer, goûter et découvrir afin de passer un <i><b>moment de qualité</b></i> avec leurs proches. Ainsi, nous croyons que la <i><b>modernisation des séjours touristiques</b></i> permettra de bonifier l’accueil de chacun des visiteurs. Notre objectif est de <i><b>mettre en valeur les régions touristiques</b></i> en créant une plateforme personnalisée à chacune d’entre elles."</p>
+
+			<div class="section" id="team" style="background-color: transparent;"></div>
+		</div>
+
+		
+		<div class="team">
+			<h3 style="margin-bottom: 100px;">Qui sommes-nous?</h3>
+			<div class="row" style="position: relative;">
+				<div class="col40">
+					<img src="team/lexio.png" alt="">
+				</div>
+				<div class="col60" style="position: relative;">
+					<p style="top: 50%; margin-top: -165px;">Finissante en administration des affaires à HEC Montréal. Alexia est passionnée du monde des affaires certes, mais particulièrement de l’industrie du tourisme.  Native de l’Île d’Orléans, elle s’épanouie dans le milieu depuis déjà plusieurs années où elle a su développer une compréhension accrue du secteur. De nature ambitieuse et optimiste, Alexia a à cœur le progrès du monde qui l’entoure. Il était alors tout naturel pour elle de créer le concept de CityApp ou elle peut mettre à profit ses capacités afin de rendre le tourisme de demain meilleur. </p>
+				</div>
+			</div>
+			<div class="row" style=" position: relative; top: -50px;">
+				<div class="col60" style="position: relative;">
+					<p style="float: right;height: 220px; top: 50%; margin-top: -110px;">Adrien, c’est un passionné! Étudiant en administration des affaires ainsi qu'en génie informatique, il affectionne tout particulièrement les technologies et la photographie où il peut mettre sa créativité à profit. Adrien est celui derrière l’écran à la recherche du meilleur esthétisme visuel. Tout comme Alexia, il souhaite rendre le monde de demain meilleur.  CityApp est pour lui une occasion de le faire!</p>
+				</div>
+				<div class="col40">
+					<img src="team/tidri.png" alt="">
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="section" id="soumission"></div>
+		<div class="soumission">
+			<h3>Pour une soumission, ou toutes autres questions:</h3>
+			<div id="contact">   
+			    <form action="contactform.php" method="post">
+			      <div class="elem-group">
+			        <label for="name">Votre nom</label>
+			        <input type="text" id="name" name="visitor_name"  pattern=[A-Z\sa-z]{3,20} required>
+			      </div>
+			      <div class="elem-group">
+			        <label for="email">Votre courriel</label>
+			        <input type="email" id="email" name="visitor_email" required>
+			      </div>
+			      <div class="elem-group">
+			        <label for="title">Sujet</label>
+			        <input type="text" id="title" name="email_title" required pattern={3,60}>
+			      </div>
+			      <div class="elem-group">
+			        <label for="message">Écrire votre demande détaillée:</label>
+			        <textarea id="message" name="visitor_message" required></textarea>
+			      </div>
+			      <div class="elem-group">
+			      	<button class="cta" id="send" type="submit">Envoyer</button>
+			      </div>
+			    </form>
+			</div> 
+		</div>
+
+		<footer>
+			<p style="text-align: center;">Copyright 2020 &copy; CityApp Inc.</p>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1033,7 +1033,7 @@ padding: 5px;
 
 .proddesc p {
 	font-family: 'Quando';
-	font-size: 10px;
+	font-size: 15px;
 	line-height: 30px;
 	text-align: justify;
 	position: absolute;
@@ -1052,7 +1052,10 @@ padding: 5px;
 	float: left;
 	width: 25%;
 	position: relative;
+}
 
+.b img {
+	top: 50px;
 }
 
 .col50 {
@@ -1248,7 +1251,7 @@ footer p {
 }
 
 .title h2 {
-	font-size: 100px;
+	font-size: 80px;
 	width: 100%;
 	position: relative;
 	top: 40%;margin-top: -120px;
@@ -1278,28 +1281,28 @@ h4 {
 
 
 a h3 {
-	font-size: 15px;
+	font-size: 20px;
 	position: relative;
 	font-weight: normal;
 	font-family: 'Quando';
 	text-align: left;
 	/*background-color: red;*/
 	text-align: center;
-	height: 34px;
+	height: 22px;
 	top: 50%;
-	margin-top: -17px;
+	margin-top: -11px;
 }
 
 .cta-home {
 	position: absolute;
 	background-color: rgba(0,0,0,.3);
-	height: 60px;
+	height: 40px;
 	border-color: white;
 	/*border-width: 5px;*/
 	border-radius: 10px;
-	width: 50%;
+	width: 46%;
 	top: 75%; margin-top: -30px;
-	left: 50%;margin-left: -25%;
+	left: 50%; margin-left: -23%;
 	font-family: 'Quando';
 	color: white;
 	opacity: 1;
@@ -1346,9 +1349,10 @@ nav {
 
 nav .logo{
 	display: block;
-	width: 300px;
+	width: 100%;
+	text-align: center;
 	height: 56px;
-	position: absolute; top: 50%; left: 30px;
+	position: absolute; top: 50%;
 	margin-top: -28px;
 	overflow: hidden;
 	/*background-color: red;*/
@@ -1362,6 +1366,7 @@ nav .logo{
 }
 
 nav ul {
+	display: none;
 	padding: 0;
 	margin: 0 20px 0 0;
 }
@@ -1522,7 +1527,7 @@ padding: 5px;
 
 .produit {
 	position: relative;
-	height: 1300px;
+	height: 900px;
 } 
 
 
@@ -1530,7 +1535,7 @@ padding: 5px;
 
 .produit h3 {
 	color: #4686C8;
-	margin-bottom: 75px;
+	margin-bottom: 115px;
 	top: 50px;
 	position: relative;
 	font-size: 45px;
@@ -1573,6 +1578,14 @@ padding: 5px;
 	 transform: scaleX(-1);
 }
 
+.desktop {
+	display: none;
+}
+
+.mobileprod {
+	display: none;
+}
+
 #mockup {
 	height: 500px;
 	width: 500px;
@@ -1585,7 +1598,7 @@ padding: 5px;
 }
 
 .desctop {
-	margin-bottom: 0px; margin-top: 50px;
+	margin-bottom: 0px; margin-top: 75px;
 	height: 200px;
 }
 
@@ -1597,7 +1610,7 @@ padding: 5px;
 
 .proddesc p {
 	font-family: 'Quando';
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 30px;
 	text-align: justify;
 	position: absolute;
@@ -1640,6 +1653,7 @@ img {
 	height: 360px;
 	display: block;
 	width: 90%;
+	top: 50px;
 	transform: translateY(-50px);
 }
 
@@ -1666,12 +1680,12 @@ footer p {
 
 .mission p {
 	color: #fff;
-	width: 66%;
-	font-size: 20px;
+	width: 90%;
+	font-size: 18px;
 	line-height: 35px;
 	font-family: 'Quando';
 	text-align: center;
-	left: 20%;
+	left: 5%;
 	position: absolute;
 	margin-top: 30px;
 	font-weight: lighter;
@@ -1730,24 +1744,34 @@ footer p {
 }
 
 .col40 img {
-	width: 300px;
+	width: 250px;
 	left: 50%;
 	margin-left: -150px;
-	height: 300px;
+	height: 250px;
 	position: relative;
+	z-index: 0;
 }
 
 .col60 p {
 	width: 80%;
 	text-align: center;
 	font-family: 'Quando';
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 30px;
 	position: relative;
 	text-align: justify;
 	height: 330px;
+	z-index: 2;
 }  
 
+#img {
+	left: 189px;
+	top: 50px;
+}
+
+#img2 {
+	top: 50px;
+}
 
 
 

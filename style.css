@@ -1,4 +1,9 @@
 @media screen and (min-width: 1200px){
+
+.mobilebody {
+	display: none;
+}
+
 .tabletprod {
 	display: none;
 }
@@ -634,6 +639,10 @@ footer p {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1199px) {
+
+.mobilebody {
+	display: none;
+}
 
 * {
 	padding: 0;

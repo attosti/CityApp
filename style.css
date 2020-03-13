@@ -1,5 +1,10 @@
 @media screen and (min-width: 1200px){
 
+	.desktop {
+		margin-bottom: 150px;
+		/*background-color: red;*/
+	}
+
 .mobilebody {
 	display: none;
 }
@@ -346,7 +351,7 @@ padding: 5px;
 
 .produit {
 	position: relative;
-	height: 1500px;
+	height: 1600px;
 } 
 
 .addedvalue {
@@ -506,6 +511,7 @@ padding: 5px;
 
 .col50 h4 span {
 	font-size: 25px;
+	color: #4686C8;
 }
 
  #regions, #shop {
@@ -578,6 +584,10 @@ footer p {
 	position: absolute;
 	margin-top: 25px;
 	font-weight: lighter;
+}
+
+.mission p span {
+	font-size: 27px;
 }
 
 .mission h3 {
@@ -668,6 +678,7 @@ footer p {
 
 .col50 h4 span {
 	font-size: 25px;
+	color: #4686C8;
 }
 
 .mobilebody {
@@ -1258,6 +1269,7 @@ footer p {
 
 .col50 h4 span {
 	font-size: 25px;
+	color: #4686C8;
 }
 
 .mobilebody {

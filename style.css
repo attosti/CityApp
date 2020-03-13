@@ -346,7 +346,7 @@ padding: 5px;
 
 .produit {
 	position: relative;
-	height: 1450px;
+	height: 1500px;
 } 
 
 .addedvalue {
@@ -493,6 +493,21 @@ padding: 5px;
 	width: 50%;
 }
 
+.col50 h4 {
+	font-size: 20px;
+	margin-bottom: 60px;
+	width: 100%;
+	text-align: left;
+}
+
+.this {
+	margin-top: 60px;
+}
+
+.col50 h4 span {
+	font-size: 25px;
+}
+
  #regions, #shop {
 	width: 300px;
 	height: 300px;
@@ -525,10 +540,10 @@ img {
 
 .video {
 	position: relative;
-	width: 640px;
 	height: 360px;
 	display: block;
 	width: 90%;
+	left: 5%;
 }
 
 footer {
@@ -639,6 +654,21 @@ footer p {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1199px) {
+
+	.col50 h4 {
+	font-size: 20px;
+	margin-bottom: 30px;
+	width: 95%;
+	text-align: left;
+}
+
+.this {
+	margin-top: 60px;
+}
+
+.col50 h4 span {
+	font-size: 25px;
+}
 
 .mobilebody {
 	display: none;
@@ -1090,7 +1120,7 @@ img {
 	height: 360px;
 	display: block;
 	width: 90%;
-	transform: translateY(-50px);
+	left: 5%;
 }
 
 footer {
@@ -1214,6 +1244,21 @@ footer p {
 
 
 @media screen and (min-width: 600px) and (max-width: 899px){
+
+	.col50 h4 {
+	font-size: 18px;
+	margin-bottom: 40px;
+	width: 95%;
+	text-align: left;
+}
+
+.this {
+	margin-top: 60px;
+}
+
+.col50 h4 span {
+	font-size: 25px;
+}
 
 .mobilebody {
 	display: none;
@@ -1680,7 +1725,6 @@ img {
 	display: block;
 	width: 90%;
 	top: 50px;
-	transform: translateY(-50px);
 }
 
 footer {
@@ -2271,7 +2315,6 @@ img {
 	display: block;
 	width: 90%;
 	top: 50px;
-	transform: translateY(-50px);
 }
 
 footer {
